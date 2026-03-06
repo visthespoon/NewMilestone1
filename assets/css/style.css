@@ -1,3 +1,5 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink:wght@100..900&family=Geom:ital,wght@0,300..900;1,300..900&display=swap');
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -25,6 +27,18 @@ main {
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+}
+
+h1 {
+    font-family: 'Bitcount Grid Double Ink', cursive;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-family: 'Geom', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.5;
 }
 
 /* Footer */
