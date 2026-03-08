@@ -14,6 +14,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
+    font-family: "Geom", sans-serif;
 }
 
 
@@ -22,23 +23,17 @@ header {
     background-color: lightcoral;
 }
 
-/* Main content */
-main {
-    background-color: lightblue;
-    /* Make main element take up any surplus space to push footer down */
-    flex: 1 0 auto;
-}
-
 h1 {
     font-family: 'Bitcount Grid Double Ink', cursive;
     font-size: 3rem;
     margin-bottom: 1rem;
 }
 
-p {
-    font-family: 'Geom', sans-serif;
-    font-size: 1.25rem;
-    line-height: 1.5;
+/* Main content */
+main {
+    background-color: lightblue;
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
 }
 
 /* Footer */
