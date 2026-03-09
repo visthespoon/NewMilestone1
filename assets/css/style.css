@@ -26,6 +26,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 } 
  
 header a {
@@ -65,13 +68,28 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none; /* Hide the dropdown menu by default */
+    top: 100%; /* Position the dropdown menu below the header */ 
 }
+
+/* Navbar toggle */
+#nav-toggle:checked~nav {
+    display: block; /* Show the dropdown menu when the checkbox is checked */
+}    
+
+#nav-toggle {
+    display: none; /* Hide the checkbox */
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}   
 
 /* Main content */
 main {
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    margin-top: 77px; /* Add margin to prevent content from being hidden behind the fixed header */
 }
 
 /* Footer */
