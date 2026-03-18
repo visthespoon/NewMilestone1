@@ -89,7 +89,7 @@ main {
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 77px; /* Add margin to prevent content from being hidden behind the fixed header */
+    margin-top: 130px; /* Add margin to prevent content from being hidden behind the fixed header */
 }
 
 /* Footer */
@@ -118,4 +118,12 @@ footer {
     .nav-toggle-label {
         display: none;
     }
+
+    #logo {
+    font-size: 400%;
+    padding-top: 15px;
+    line-height: 55px;
+    margin: 0 0rem;
 }
+}
+
