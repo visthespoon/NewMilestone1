@@ -116,7 +116,7 @@ footer {
     }
 
     .nav-toggle-label {
-        display: none;
+        display: inline;
     }
 
     #logo {
