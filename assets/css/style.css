@@ -17,6 +17,14 @@ body {
     font-family: "Geom", sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: 'Bitcount Grid Double Ink', cursive;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    color: #252525; 
+    margin-bottom: 1rem;
+}
 
 /* Header */
 header {
@@ -34,15 +42,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-h1 {
-    font-family: 'Bitcount Grid Double Ink', cursive;
-    text-transform: capitalize;
-    letter-spacing: 2px;
-    font-size: 3rem;
-    color: #252525; 
-    margin-bottom: 1rem;
 }
 
 #menu {
@@ -96,8 +95,25 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/hero-image.jpg") no-repeat center center/cover;
+    position : relative;
 }
  
+#cover-text {
+    /* final rgba value sets Semi-transparent background for better readability */
+    background-color: rgba(98, 199, 247, 0.7); 
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding: 40px;
+    padding-left: 10px;
+} 
+
+#cover-text > h2, #cover-text > h3 {
+    color: #ffffff;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
