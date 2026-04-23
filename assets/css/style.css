@@ -86,12 +86,18 @@ nav {
 
 /* Main content */
 main {
-    background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 130px; /* Add margin to prevent content from being hidden behind the fixed header */
 }
 
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.jpg") no-repeat center center/cover;
+}
+ 
 /* Footer */
 #social-networks {
     text-align: center;
